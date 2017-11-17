@@ -1,4 +1,4 @@
-﻿namespace aula07032017JogoDaVelha
+namespace aula07032017JogoDaVelha
 {
     partial class Form1
     {
@@ -204,7 +204,8 @@
             // 
             // btnRecomecar
             // 
-            this.btnRecomecar.Location = new System.Drawing.Point(10, 160);
+            this.btnRecomecar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
+            this.btnRecomecar.Location = new System.Drawing.Point(10, 182);
             this.btnRecomecar.Name = "btnRecomecar";
             this.btnRecomecar.Size = new System.Drawing.Size(109, 43);
             this.btnRecomecar.TabIndex = 11;
@@ -214,6 +215,7 @@
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.button1.Location = new System.Drawing.Point(511, 85);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(109, 43);
@@ -224,6 +226,7 @@
             // 
             // button2
             // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.button2.Location = new System.Drawing.Point(511, 36);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(109, 43);
@@ -235,11 +238,11 @@
             // lbl2
             // 
             this.lbl2.AutoSize = true;
-            this.lbl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
-            this.lbl2.ForeColor = System.Drawing.Color.Black;
+            this.lbl2.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.lbl2.Location = new System.Drawing.Point(36, 32);
             this.lbl2.Name = "lbl2";
-            this.lbl2.Size = new System.Drawing.Size(62, 72);
+            this.lbl2.Size = new System.Drawing.Size(66, 78);
             this.lbl2.TabIndex = 14;
             this.lbl2.Text = "Placar\r\nX: 0\r\nO: 0\r\n";
             this.lbl2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -247,9 +250,10 @@
             // 
             // btnApagarPlacar
             // 
+            this.btnApagarPlacar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.btnApagarPlacar.Location = new System.Drawing.Point(10, 113);
             this.btnApagarPlacar.Name = "btnApagarPlacar";
-            this.btnApagarPlacar.Size = new System.Drawing.Size(109, 41);
+            this.btnApagarPlacar.Size = new System.Drawing.Size(109, 63);
             this.btnApagarPlacar.TabIndex = 15;
             this.btnApagarPlacar.Text = "Apagar\r\nPlacar\r\n";
             this.btnApagarPlacar.UseVisualStyleBackColor = true;
@@ -271,11 +275,11 @@
             // lbl3
             // 
             this.lbl3.AutoSize = true;
-            this.lbl3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl3.ForeColor = System.Drawing.Color.Black;
+            this.lbl3.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.lbl3.Location = new System.Drawing.Point(262, 453);
             this.lbl3.Name = "lbl3";
-            this.lbl3.Size = new System.Drawing.Size(106, 24);
+            this.lbl3.Size = new System.Drawing.Size(116, 26);
             this.lbl3.TabIndex = 17;
             this.lbl3.Text = "Iniciar com:";
             // 
@@ -293,11 +297,11 @@
             // lbl
             // 
             this.lbl.AutoSize = true;
-            this.lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F);
-            this.lbl.ForeColor = System.Drawing.Color.Black;
+            this.lbl.Font = new System.Drawing.Font("Comic Sans MS", 20.25F);
+            this.lbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.lbl.Location = new System.Drawing.Point(263, 412);
             this.lbl.Name = "lbl";
-            this.lbl.Size = new System.Drawing.Size(113, 31);
+            this.lbl.Size = new System.Drawing.Size(120, 38);
             this.lbl.TabIndex = 19;
             this.lbl.Text = "Vez de: ";
             // 
@@ -305,6 +309,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(634, 506);
             this.Controls.Add(this.lbl);
             this.Controls.Add(this.radioButton2);
@@ -325,9 +330,11 @@
             this.Controls.Add(this.btn2);
             this.Controls.Add(this.btn1);
             this.Controls.Add(this.shapeContainer1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Jogo da Velha";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
